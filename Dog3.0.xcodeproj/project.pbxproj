@@ -14,6 +14,13 @@
 		2E1977502198F4C80008D8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E19774E2198F4C80008D8EB /* LaunchScreen.storyboard */; };
 		2E19775B2198F4C80008D8EB /* Dog3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E19775A2198F4C80008D8EB /* Dog3_0Tests.swift */; };
 		2E1977662198F4C80008D8EB /* Dog3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1977652198F4C80008D8EB /* Dog3_0UITests.swift */; };
+		2E1977742198F5310008D8EB /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1977732198F5310008D8EB /* MainPageViewController.swift */; };
+		2E1977762198F55D0008D8EB /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2E1977752198F55D0008D8EB /* MyScene.sks */; };
+		2E1977782198F6230008D8EB /* BuyDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1977772198F6230008D8EB /* BuyDog.swift */; };
+		2E19778021990BB60008D8EB /* bgMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E19777F21990BB60008D8EB /* bgMusic.mp3 */; };
+		2E19778221990FC30008D8EB /* NotEnoughMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E19778121990FC30008D8EB /* NotEnoughMoneyViewController.swift */; };
+		2E19778421991DA70008D8EB /* DogTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E19778321991DA70008D8EB /* DogTableTableViewController.swift */; };
+		2E197786219928660008D8EB /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E197785219928660008D8EB /* DogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		2E1977612198F4C80008D8EB /* Dog3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dog3.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1977652198F4C80008D8EB /* Dog3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog3_0UITests.swift; sourceTree = "<group>"; };
 		2E1977672198F4C80008D8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E1977732198F5310008D8EB /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		2E1977752198F55D0008D8EB /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		2E1977772198F6230008D8EB /* BuyDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyDog.swift; sourceTree = "<group>"; };
+		2E19777F21990BB60008D8EB /* bgMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgMusic.mp3; sourceTree = "<group>"; };
+		2E19778121990FC30008D8EB /* NotEnoughMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotEnoughMoneyViewController.swift; sourceTree = "<group>"; };
+		2E19778321991DA70008D8EB /* DogTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTableTableViewController.swift; sourceTree = "<group>"; };
+		2E197785219928660008D8EB /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,19 @@
 		2E1977442198F4C70008D8EB /* Dog3.0 */ = {
 			isa = PBXGroup;
 			children = (
+				2E197785219928660008D8EB /* DogViewController.swift */,
 				2E1977452198F4C70008D8EB /* AppDelegate.swift */,
 				2E1977472198F4C70008D8EB /* ViewController.swift */,
 				2E1977492198F4C70008D8EB /* Main.storyboard */,
+				2E1977772198F6230008D8EB /* BuyDog.swift */,
+				2E19778321991DA70008D8EB /* DogTableTableViewController.swift */,
+				2E1977732198F5310008D8EB /* MainPageViewController.swift */,
+				2E19777E21990B850008D8EB /* sounds */,
+				2E1977752198F55D0008D8EB /* MyScene.sks */,
 				2E19774C2198F4C80008D8EB /* Assets.xcassets */,
 				2E19774E2198F4C80008D8EB /* LaunchScreen.storyboard */,
 				2E1977512198F4C80008D8EB /* Info.plist */,
+				2E19778121990FC30008D8EB /* NotEnoughMoneyViewController.swift */,
 			);
 			path = Dog3.0;
 			sourceTree = "<group>";
@@ -123,6 +144,14 @@
 				2E1977672198F4C80008D8EB /* Info.plist */,
 			);
 			path = Dog3.0UITests;
+			sourceTree = "<group>";
+		};
+		2E19777E21990B850008D8EB /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2E19777F21990BB60008D8EB /* bgMusic.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +260,8 @@
 			files = (
 				2E1977502198F4C80008D8EB /* LaunchScreen.storyboard in Resources */,
 				2E19774D2198F4C80008D8EB /* Assets.xcassets in Resources */,
+				2E19778021990BB60008D8EB /* bgMusic.mp3 in Resources */,
+				2E1977762198F55D0008D8EB /* MyScene.sks in Resources */,
 				2E19774B2198F4C70008D8EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +288,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E1977482198F4C70008D8EB /* ViewController.swift in Sources */,
+				2E19778221990FC30008D8EB /* NotEnoughMoneyViewController.swift in Sources */,
+				2E1977782198F6230008D8EB /* BuyDog.swift in Sources */,
+				2E1977742198F5310008D8EB /* MainPageViewController.swift in Sources */,
 				2E1977462198F4C70008D8EB /* AppDelegate.swift in Sources */,
+				2E19778421991DA70008D8EB /* DogTableTableViewController.swift in Sources */,
+				2E197786219928660008D8EB /* DogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
